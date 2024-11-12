@@ -6,6 +6,16 @@
   "scripts": {
     "start": "node server.js"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmarshahid/FINAL-MERN.git"
+  },
+  "author": "Muhammad Ahmar Shahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmarshahid/FINAL-MERN/issues"
+  },
+  "homepage": "https://github.com/ahmarshahid/FINAL-MERN#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",

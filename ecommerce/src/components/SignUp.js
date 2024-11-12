@@ -16,7 +16,7 @@ const SignUp = () => {
         e.preventDefault();
         try {
             // Directly make the POST request using axios
-            const response = await axios.post('https://ui-beige-pi.vercel.app/user/signup', formData); // Replace with your actual backend URL
+            const response = await axios.post('http://localhost:5000/user/signup', formData); // Replace with your actual backend URL
             setMessage(response.data.message);
         } catch (error) {
             console.error('Error signing up:', error.response?.data || error);

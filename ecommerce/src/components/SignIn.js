@@ -15,7 +15,7 @@ const SignIn = ({ setUser }) => {
     const handleSignIn = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://ui-beige-pi.vercel.app/user/signin', { email, password });
+            const response = await axios.post('http://localhost:5000/user/signin', { email, password });
 
             if (response.status === 200) {
                 const userData = response.data;  

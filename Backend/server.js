@@ -14,6 +14,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 4000;
 const URI = process.env.Mongodb_URI
+console.log(URI);
 
 mongoose.connect(URI, { 
 useNewUrlParser: true, 
